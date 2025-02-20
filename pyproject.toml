@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "stock-predict"
+version = "0.1.0"
+description = ""
+authors = ["Mei Chen <meichen.mlc@gmail.com>"]
+readme = "README.md"
+packages = [{include = "stock_predict"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+yfinance = "^0.2.36"
+numpy = "<2.0.0"
+TA-Lib = "^0.4.28"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
